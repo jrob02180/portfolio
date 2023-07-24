@@ -2,9 +2,6 @@
   --primary: #FEA116;
   --light: #eff3f7;
   --dark: #000102;
-}
-
-.app {
   text-align: center;
   background-color: rgb(51, 28, 88);
   width: 100%;
@@ -13,38 +10,6 @@
 .ff-secondary {
   font-family: 'Pacifico', cursive;
 }
-
-.fw-medium {
-  font-weight: 600 !important;
-}
-
-.fw-semi-bold {
-  font-weight: 700 !important;
-}
-
-.back-to-top {
-  position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
-}
-
-
-/*** Spinner ***/
-/* #spinner {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s ease-out, visibility 0s linear .5s;
-  z-index: 99999;
-}
-
-#spinner.show {
-  transition: opacity .5s ease-out, visibility 0s linear 0s;
-  visibility: visible;
-  opacity: 1;
-} */
-
 
 /*** Button ***/
 .btn {
@@ -93,7 +58,8 @@
   justify-content: space-between;
   padding: 35px 0;
   font-size: 20px;
-  background-color: rgb(34, 28, 88);
+  background-color: rgb(51, 28, 88);
+  /* background-color: rgb(34, 28, 88); */
   /* background: linear-gradient(rgba(25, 38, 68, 0.9), rgba(15, 23, 43, .9)), url(../src/assets/cover/dahlia.jpg);
   background-position: center center;
   background-size: cover; */
@@ -119,35 +85,7 @@
   padding: 35px;
   text-decoration: none;
 }
-/* .navbar-dark .navbar-nav .nav-link {
-  position: relative;
-  margin-left: 25px;
-  padding: 35px 0;
-  font-size: 15px;
-  color: var(--light) !important;
-  text-transform: uppercase;
-  font-weight: 500;
-  outline: none;
-  transition: .5s;
-} */
 
-/* .sticky-top.navbar-dark .navbar-nav .nav-link {
-  padding: 20px 0;
-} */
-
-/* .navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: var(--primary) !important;
-} */
-
-/* .navbar-dark .navbar-brand img {
-  max-height: 60px;
-  transition: .5s;
-} */
-
-.sticky-top.navbar-dark .navbar-brand img {
-  max-height: 45px;
-}
 
 @media (max-width: 991.98px) {
   .sticky-top.navbar-dark {
@@ -323,6 +261,33 @@
   width: 50px;
 }
 
+/***  Skills ***/
+
+.credentials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  padding: 50px
+}
+
+.animate__rotateIn img{
+  animation-name: flip;
+  animation-duration: 1s;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.skillIcons {
+  margin-top: 20px;
+  height: 100px;
+}
+.skillIcons img {
+  height: 200px;
+  /* width: 100%; */
+}
 
 
 
