@@ -12,7 +12,7 @@ export default function Projects() {
     return (
         <div className="">
             <div className="project-container">
-                <div className="text-center ">
+                <div id='projects'>
                     <h1 className="section-title ff-secondary">Projects</h1>
                     {/* <h1 className="mb-5">My Favorite Projects</h1> */}
                 </div>

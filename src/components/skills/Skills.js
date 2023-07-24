@@ -4,6 +4,9 @@ import React from "react";
 export default function Resume() {
   return (
     <div>
+      <h1 className="section-title" id="skills">
+        Skills
+      </h1>
       <div className="row resume text-center">
         {/* <a href={ resume } style={{ fontSize: 50 }} download>Download my resume</a> */}
         <p align="center">
