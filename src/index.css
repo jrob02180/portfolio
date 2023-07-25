@@ -1,53 +1,18 @@
 :root {
-  --primary: #FEA116;
-  --light: #eff3f7;
+  /* --primary: #FEA116; */
+  --primary: #a664c0;
+
+  --light: #c8cfd6;
   --dark: #000102;
   text-align: center;
-  background-color: rgb(51, 28, 88);
+  /* background-color: rgb(51, 28, 88); */
+  background-color: rgb(2, 1, 17);
+
   width: 100%;
 }
 
 .ff-secondary {
   font-family: 'Pacifico', cursive;
-}
-
-/*** Button ***/
-.btn {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: .5s;
-}
-
-.btn.btn-primary,
-.btn.btn-secondary {
-  color: #FFFFFF;
-}
-
-.btn-square {
-  width: 38px;
-  height: 38px;
-}
-
-.btn-sm-square {
-  width: 32px;
-  height: 32px;
-}
-
-.btn-lg-square {
-  width: 48px;
-  height: 48px;
-}
-
-.btn-square,
-.btn-sm-square,
-.btn-lg-square {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: normal;
-  border-radius: 2px;
 }
 
 
@@ -58,12 +23,12 @@
   justify-content: space-between;
   padding: 35px 0;
   font-size: 20px;
-  background-color: rgb(51, 28, 88);
-  /* background-color: rgb(34, 28, 88); */
+  /* background-color: rgb(51, 28, 88); */
+  background-color: rgb(2, 1, 17);
   /* background: linear-gradient(rgba(25, 38, 68, 0.9), rgba(15, 23, 43, .9)), url(../src/assets/cover/dahlia.jpg);
   background-position: center center;
   background-size: cover; */
-  height: 150px;
+  height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -73,8 +38,8 @@
 .navbar-name {
   color: var(--primary);
   font-size: 60px;
-  padding: 35px;
-  padding-left: 50px;
+  /* padding: 35px; */
+  padding-left: 60px;
   text-align: left;
   font-family: 'Pacifico', cursive;
 
@@ -143,8 +108,8 @@
 .profilepic {
   padding: 30px;
   /* padding-top: 40px; */
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 800px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -174,10 +139,10 @@
 .section-title::before {
   position: absolute;
   content: "";
-  width: 45px;
-  height: 2px;
+  width: 50px;
+  height: 3px;
   top: 50%;
-  left: -55px;
+  left: -65px;
   margin-top: -1px;
   background: var(--primary);
 }
@@ -185,10 +150,10 @@
 .section-title::after {
   position: absolute;
   content: "";
-  width: 45px;
-  height: 2px;
+  width: 50px;
+  height: 3px;
   top: 50%;
-  right: -55px;
+  right: -65px;
   margin-top: -1px;
   background: var(--primary);
 }
@@ -283,75 +248,36 @@
 .skillIcons {
   margin-top: 20px;
   height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .skillIcons img {
   height: 200px;
   /* width: 100%; */
 }
 
+/*** Contact ***/
+#contact {
+  padding-top: 200px;
+  color: var(--light);
+}
 
 
 /*** Footer ***/
-.footer .btn.btn-social {
-  margin-right: 5px;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+footer {
+  background-color: var(--primary); 
   color: var(--light);
-  border: 1px solid #FFFFFF;
-  border-radius: 35px;
-  transition: .3s;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.footer .btn.btn-social:hover {
-  color: var(--primary);
-}
-
-.footer .btn.btn-link {
-  display: block;
-  margin-bottom: 5px;
-  padding: 0;
-  text-align: left;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: normal;
-  text-transform: capitalize;
-  transition: .3s;
-}
-
-.footer .btn.btn-link::before {
-  position: relative;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  margin-right: 10px;
-}
-
-.footer .btn.btn-link:hover {
-  letter-spacing: 1px;
-  box-shadow: none;
-}
-
-.footer .copyright {
-  padding: 25px 0;
-  font-size: 15px;
-  border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright a {
+.footer img {
+  width: 75px;
+  height: 75px;
+  margin: 0 10px;
   color: var(--light);
+  opacity: 1;
 }
 
-.footer .footer-menu a {
-  margin-right: 15px;
-  padding-right: 15px;
-  border-right: 1px solid rgba(255, 255, 255, .1);
-}
 
-.footer .footer-menu a:last-child {
-  margin-right: 0;
-  padding-right: 0;
-  border-right: none;
-}

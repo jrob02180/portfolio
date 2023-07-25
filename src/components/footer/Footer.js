@@ -1,30 +1,22 @@
-import React from 'react';
+import React from "react";
+import github from "../../assets/footer/github-mark.png";
+import linkedin from "../../assets/footer/linked-in.png";
+import insta from "../../assets/footer/instagram.png";
 
 function Footer() {
-
-  // Replace links with social media profiles
-  const icons = [
-    {
-      name: "fab fa-github",
-      link: "https://github.com/"
-    },
-    {
-      name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
-    },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
-    }
-  ]
-
   return (
-    <footer className="flex-row px-1">
-      {icons.map(icon =>
-      (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
-      )
-        )}
+    <footer className="footer">
+      <div className="container d-flex justify-content-center align-items-center">
+        <a href="https://github.com/jrob02180">
+          <img src={github} alt="github" />
+        </a>
+        <a href="https://www.linkedin.com/in/jen-roberson-060417276/">
+          <img src={linkedin} alt="linkedin" />
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src={insta} alt="instagram" />
+        </a>
+      </div>
     </footer>
   );
 }

@@ -16,7 +16,7 @@ export default function Resume() {
       </div>
       <div className="skillIcons">
         {/* <a href={ resume } style={{ fontSize: 50 }} download>Download my resume</a> */}
-        <p align="center">
+        <p align="">
           {/* <a href=""> */}
           <img
             src="https://skillicons.dev/icons?i=git,react,js,html,css,bootstrap,github,heroku,express,nodejs,mongodb,mysql,sequelize,jquery,regex,vscode, "
