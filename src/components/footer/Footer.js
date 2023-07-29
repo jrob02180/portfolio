@@ -13,7 +13,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/jen-roberson-060417276/">
           <img src={linkedin} alt="linkedin" />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/jrob02180">
           <img src={insta} alt="instagram" />
         </a>
       </div>
