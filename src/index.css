@@ -290,14 +290,28 @@ width: auto;
 
 /***  Skills ***/
 
-.credentials{
+.credentials {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 100px;
-  padding: 50px
+  padding: 80px;
+  }
+
+.resume {
+  color: var(--primary);
+  font-size: 35px;
+  font-style: italic;
+  border: 3px solid var(--primary);
+  border-radius: 5%;
+  height: 100px;
+  width: 300px;
+  text-decoration: none;
+  margin-right: 40px;
+  padding-top: 40px;
 }
+
 
 .animate__rotateIn img{
   animation-name: flip;
