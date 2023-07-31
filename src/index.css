@@ -255,6 +255,7 @@ width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -274,6 +275,7 @@ width: auto;
 .tinyLogo {
   height: 75px;
   width: 75px;
+  background-color: var(--light);
 }
 
 .appsUsed {
@@ -318,26 +320,21 @@ width: auto;
 }
 
 /*** Contact ***/
-#contact {
-  padding-top: 200px;
-  color: var(--light);
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: var(--primary);
+  border-radius: 5%;
 }
 
-
-/*** Footer ***/
-footer {
-  background-color: var(--primary); 
-  color: var(--light);
-  padding: 20px 0;
-  text-align: center;
+.social img {
+  height: 70px;
+  width: 70px;
+  padding: 10px;
 }
-
-.footer img {
-  width: 75px;
-  height: 75px;
-  margin: 0 10px;
-  color: var(--light);
-  opacity: 1;
-}
-
 
