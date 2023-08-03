@@ -5,9 +5,11 @@ import 'animate.css'
 export default function Resume() {
   return (
     <div>
-      <h1 className="section-title" id="skills">
+      <div  id="skills">
+      <h1 className="section-title">
         Skills
       </h1>
+      </div>
       <div className="credentials">
       <a href="https://docs.google.com/document/d/12Lc-1hYkdbZHov4d54WjaWQNIsHOeeBP/edit?usp=sharing&ouid=106045309301998733331&rtpof=true&sd=true" className="resume">
           See my resume

@@ -263,7 +263,9 @@ body {
   width: 300px;
   text-decoration: none;
   margin-right: 60px;
-  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .animate__rotateIn img {
