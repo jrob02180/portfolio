@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c1a956dd.css",
+    "main.js": "/portfolio/static/js/main.9d947329.js",
+    "static/media/profile3.jpg": "/portfolio/static/media/profile3.efb0cb67a55cea384bd9.jpg",
+    "static/media/books.jpg": "/portfolio/static/media/books.d5ec3f498743ad0dee66.jpg",
+    "static/media/zen-journal-background.jpg": "/portfolio/static/media/zen-journal-background.f66bec286ed945a79295.jpg",
+    "static/media/text.jpg": "/portfolio/static/media/text.556a2d1d76c3696616ef.jpg",
+    "static/media/birds.webp": "/portfolio/static/media/birds.e8a95217cb86b68345e8.webp",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.0a974f2af4c412a2b991.png",
+    "static/media/badge.png": "/portfolio/static/media/badge.3eb09040d630f228b3aa.png",
+    "index.html": "/portfolio/index.html",
+    "main.c1a956dd.css.map": "/portfolio/static/css/main.c1a956dd.css.map",
+    "main.9d947329.js.map": "/portfolio/static/js/main.9d947329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1a956dd.css",
+    "static/js/main.9d947329.js"
+  ]
+}
