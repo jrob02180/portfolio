@@ -43,44 +43,6 @@
   text-decoration: none;
 }
 
-
-@media (max-width: 991.98px) {
-  .sticky-top.navbar-dark {
-      position: relative;
-  }
-
-  .navbar-dark .navbar-collapse {
-      margin-top: 15px;
-      border-top: 1px solid rgba(255, 255, 255, .1)
-  }
-
-  .navbar-dark .navbar-nav .nav-link,
-  .sticky-top.navbar-dark .navbar-nav .nav-link {
-      padding: 10px 0;
-      margin-left: 0;
-  }
-
-  .navbar-dark .navbar-brand img {
-      max-height: 45px;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-dark {
-      position: absolute;
-      width: 100%;
-      top: 0;
-      left: 0;
-      z-index: 999;
-      background: transparent !important;
-  }
-  
-  .sticky-top.navbar-dark {
-      position: fixed;
-      background: var(--dark) !important;
-  }
-}
-
 /*** About Section ***/
 #about {
   padding-top: 200px;
@@ -289,7 +251,6 @@ width: auto;
 }
 
 /***  Skills ***/
-
 .credentials {
   display: flex;
   flex-direction: row;
@@ -321,16 +282,27 @@ width: auto;
   padding: 20px;
 }
 
-.skillIcons {
+.carousel {
   margin-top: 20px;
-  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.skillIcons img {
-  height: 200px;
-  /* width: 100%; */
+
+.skills{
+  padding: 50px;
+}
+
+.skillIcon {
+  height: 100px;
+  width: 100px;
+}
+
+.skillName {
+  color: var(--primary);
+  font-size: 20px;
 }
 
 /*** Contact ***/
