@@ -1,14 +1,12 @@
 import React from "react";
-import profilepic from "../../assets/profilepic/profile.jpg";
-// import profilepic2 from "../../assets/profilepic/profile2.jpg";
 import profilepic3 from "../../assets/profilepic/profile3.jpg";
 import "animate.css";
 
 const About = () => {
   return (
-    <div className="">
+    <div >
       <div id="about">
-        <h1 className="about section-title ff-secondary">About Me</h1>
+        <h1 className="about section-title">About Me</h1>
       </div>
       <div className="aboutme">
         <p className="animate__slideInLeft" style={{ fontSize: 30 }}>

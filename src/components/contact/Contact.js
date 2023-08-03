@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div>
       <h1 id="contact" className="section-title">
-        Contact me
+        Contact Me
       </h1>
         <div className="social">
           <a href="https://github.com/jrob02180">

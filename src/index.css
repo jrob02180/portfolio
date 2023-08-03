@@ -5,12 +5,8 @@
   text-align: center;
   background-color: rgb(1, 0, 8);
   width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.ff-secondary {
-  font-family: 'Pacifico', cursive;
-}
-
 
 /*** Navbar ***/
 .navbar {
@@ -30,11 +26,9 @@
 .navbar-name {
   color: var(--primary);
   font-size: 60px;
-  /* padding: 35px; */
   padding-left: 60px;
   text-align: left;
-  font-family: 'Pacifico', cursive;
-
+  font-style: italic;
 }
 
 .nav-sections a {
@@ -73,24 +67,22 @@
 }
 
 .profilepic {
-display: inline;
-margin: 0 auto;
-margin-left: -30%;
-height: 100%;
-width: auto;
+  display: inline;
+  margin: 0 auto;
+  margin-left: -30%;
+  height: 100%;
+  width: auto;
 }
 
-
-.animate__slideInLeft{
+.animate__slideInLeft {
   animation-name: slideInLeft;
   animation-duration: 2s;
 }
 
-.animate__slideInRight{
+.animate__slideInRight {
   animation-name: slideInRight;
   animation-duration: 2s;
 }
-
 
 /*** Section Title ***/
 .section-title {
@@ -131,18 +123,18 @@ width: auto;
 .project-item {
   box-shadow: 0 0 45px rgba(228, 28, 178, 0.08);
   height: calc(100% - 38px);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .project-item img {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .project-container {
   height: 100%;
 }
 
-.project-item  {
+.project-item {
   border-radius: 38px 38px 0 0;
   padding-bottom: 100px;
   display: flex;
@@ -173,7 +165,7 @@ width: auto;
   flex-wrap: wrap;
 }
 
-.projects .img-fluid{
+.projects .img-fluid {
   height: 600px;
   width: 600px;
 }
@@ -183,7 +175,7 @@ width: auto;
 }
 
 .project-info {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   padding-left: 80px;
@@ -213,7 +205,7 @@ width: auto;
   transition: 0.5s;
 }
 
-.label{
+.label {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -258,7 +250,7 @@ width: auto;
   align-items: center;
   height: 100px;
   padding: 80px;
-  }
+}
 
 .resume {
   color: var(--primary);
@@ -273,8 +265,7 @@ width: auto;
   padding-top: 40px;
 }
 
-
-.animate__rotateIn img{
+.animate__rotateIn img {
   animation-name: flip;
   animation-duration: 1s;
   height: 200px;
@@ -291,7 +282,7 @@ width: auto;
   justify-content: center;
 }
 
-.skills{
+.skills {
   padding: 50px;
 }
 
@@ -323,4 +314,3 @@ width: auto;
   width: 70px;
   padding: 10px;
 }
-

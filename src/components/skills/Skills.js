@@ -1,9 +1,5 @@
 import React from "react";
 import badge from "../../assets/skills/badge.png";
-// import { icon } from '@fortawesome/free-solid-svg-icons'
-// import { icon } from '@fortawesome/fontawesome-svg-core'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fa } from '@fortawesome/free-brands-svg-icons'
 import 'animate.css'
 
 export default function Resume() {
@@ -22,40 +18,27 @@ export default function Resume() {
       </div>
       <div className="carousel">
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=react"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=react" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">React</p>
         </div>
-        
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=js"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=js" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">JavaScript</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=html"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=html" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">HTML</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=css"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=css" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">CSS</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=mysql"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=mysql" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">MySql</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=sequelize"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=sequelize" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Sequelize</p>
         </div>
         <div className="skills">
@@ -65,58 +48,39 @@ export default function Resume() {
           <p className="skillName">MongoDB</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=nodejs"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=nodejs" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Node</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=express"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=express" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Express</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=jquery"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=jquery" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">jQuery</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=bootstrap"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=bootstrap" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Bootstrap</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=regex"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=regex" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Regex</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=git"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=git" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Git</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=github"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=github" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Github</p>
         </div>
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=heroku"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=heroku" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">Heroku</p>
         </div>
-       
         <div className="skills">
-          <img
-            src="https://skillicons.dev/icons?i=vscode"
-            alt="skillicons" className="skillIcon"/> 
+          <img src="https://skillicons.dev/icons?i=vscode" alt="skillicons" className="skillIcon"/> 
           <p className="skillName">VS Code</p>
         </div>
       </div>

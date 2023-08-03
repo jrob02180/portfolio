@@ -11,7 +11,7 @@ export default function Projects() {
     <div className="">
       <div className="project-container">
         <div id="projects">
-          <h1 className="section-title ff-secondary">Projects</h1>
+          <h1 className="section-title">Projects</h1>
         </div>
         <div className="project-carousel">
           <div className="projects ">
