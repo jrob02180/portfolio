@@ -12,7 +12,7 @@ export default function Resume() {
       <a href="https://docs.google.com/document/d/12Lc-1hYkdbZHov4d54WjaWQNIsHOeeBP/edit?usp=sharing&ouid=106045309301998733331&rtpof=true&sd=true" className="resume">
           See my resume
         </a>
-        <a href="https://www.credly.com/earner/earned/badge/04a52f8f-be9f-4f08-89ba-b3d24adde113" className="badge animate__rotateIn">
+        <a href="https://www.credly.com/badges/04a52f8f-be9f-4f08-89ba-b3d24adde113/public_url" className="badge animate__rotateIn">
           <img src={badge} alt="badge" />
         </a>
       </div>
