@@ -3,9 +3,12 @@
   --light: #c8cfd6;
   --dark: #000102;
   text-align: center;
-  background-color: rgb(1, 0, 8);
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(1, 0, 8);
 }
 
 /*** Navbar ***/
@@ -183,8 +186,9 @@
 }
 
 .description {
-  height: 300px;
+  height: auto;
   color: var(--light);
+  padding: 20px;
   font-size: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -261,8 +265,10 @@
   height: 100px;
   width: 300px;
   text-decoration: none;
-  margin-right: 40px;
-  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 100px;
 }
 
 .animate__rotateIn img {
