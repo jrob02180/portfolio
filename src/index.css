@@ -317,3 +317,39 @@ body {
   width: 70px;
   padding: 10px;
 }
+
+/*** Mobile Media Screen ***/
+@media screen and (max-width: 992px) {
+  body{
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* position: relative;
+  min-width: 100%; */
+}
+
+.navbar-name {
+  padding-left: 0;
+  text-align: center;
+  font-size: 40px;
+}
+.nav-sections {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  align-items: center;
+  display: flex;
+}
+}

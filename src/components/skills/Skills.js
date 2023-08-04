@@ -5,7 +5,7 @@ import 'animate.css'
 export default function Resume() {
   return (
     <div>
-      <div  id="skills">
+      <div id="skills">
       <h1 className="section-title">
         Skills
       </h1>
